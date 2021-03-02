@@ -192,8 +192,8 @@ input{
     width: 100%;
 }
 
-input:active{
-    border: none;
+input:focus{
+    outline: none;
 }
 .btn{
     width: 15%;
@@ -226,8 +226,9 @@ footer div{
 footer a{
     display: block;
     font-size: 2rem;
-    margin:1.5rem 0;
+    margin:1.6rem 0;
 }
 footer img{
     height: 12rem;
+    margin:0;
 }
